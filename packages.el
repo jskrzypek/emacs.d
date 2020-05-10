@@ -18,8 +18,8 @@
 
 ;;; Org
 (package! org-clubhouse
-  :recipe (:host file
-           :local-repo "~/code/org-clubhouse"))
+  :recipe (:host github
+           :repo "glittershark/org-clubhouse"))
 (package! org-alert)
 (package! ob-http)
 (package! ob-ipython)
